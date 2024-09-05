@@ -1,0 +1,534 @@
+.about_main {
+  .about {
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+    .about-back {
+      width: 100%;
+      height: auto;
+      // display: block;
+      // margin-left: 2rem;
+      margin-top: -4.2rem;
+    }
+
+    .about-content {
+      position: absolute;
+      top: 0%;
+      left: 4%;
+      //transform: translateX(-50%);
+      //width: 78%;
+      text-align: left;
+      gap: 1rem;
+
+      .about-heading {
+        font-size: 6rem;
+        font-weight: bold;
+      }
+
+      .about-paragraph {
+        font-size: 1.4rem;
+        width: 43%;
+      }
+
+      .isoMark {
+        margin-top: 5rem;
+      }
+    }
+  }
+
+  .about-years-section {
+    .years-content {
+      .year-right {
+        .year-paragraph {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+
+  .slider-main {
+    .slider-content {
+      .slider-images {
+        .slider-img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .first-para-main {
+    .first-para-content {
+      display: flex;
+      flex-direction: row;
+
+      .first-para-rightside {
+        .first-para-text {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  .second-para-main {
+    .second-para-content {
+      display: flex;
+      flex-direction: row;
+
+      .second-para-rightside {
+        .second-para-text {
+          display: flex;
+          flex-direction: column;
+          text-align: end;
+        }
+      }
+    }
+  }
+
+  .otherExpertise {
+    .brands {
+      border: none;
+      // background: #000;
+
+      .brands-div {
+        margin: 0.5rem;
+
+        /* Add margin to create gap between images */
+        img {
+          width: 90%;
+          // height: 15rem;
+          height: 40vh;
+          /* Ensure images take up full width of parent container */
+          border-radius: 12px;
+          border: 1px solid gray;
+          padding: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .about_main {
+    .about {
+      .about-content {
+        .about-heading {
+          font-size: 5rem;
+        }
+
+        .isoMark {
+          margin-top: 1rem;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 1200px) {
+  .about_main {
+    .about {
+      .about-back {
+        margin-top: -3rem;
+      }
+
+      .about-content {
+        .about-heading {
+          font-size: 4rem;
+        }
+
+        .about-paragraph {
+          font-size: 1.2rem;
+        }
+      }
+
+      .otherExpertise {
+        .brands {
+          .brands-div {
+            margin-left: 1rem;
+          }
+        }
+      }
+    }
+
+    .about-years-section {
+      .years-content {
+        .year-left {
+          .year-img {
+            width: 33%;
+          }
+
+          .year-50 {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:1199px) {
+  .about_main {
+    // .about {
+      .otherExpertise {
+        .brands {
+          border: none;
+          // background: #000;
+    
+          .brands-div {
+            // background: #000;
+            
+           
+          }
+        }
+      }
+    // }
+  }
+}
+
+// @media (max-width: 1111px) {
+//   .about-years-section {
+//     .years-content {
+//       .year-left {
+//         .year-img {
+//           width: 40%;
+//         }
+
+//         .year-50 {
+//           margin-top: -0.8rem;
+//         }
+//       }
+
+//       .year-right {
+//         .year-paragraph {}
+//       }
+//     }
+//   }
+// }
+
+// @media(max-width: 1024px) {
+//   .about_main {
+//     .about-years-section {
+//       .years-content {
+//         .year-left {
+//           .year-img {
+//             //width: 40%;
+//           }
+
+//           .year-50 {
+//             //font-size: 3.5rem;
+//             //margin-top: -0.8rem;
+//           }
+//         }
+
+//         .year-right {
+//           .year-paragraph {
+//             //font-size: 1rem;
+//             //width: 85%;
+//           }
+//         }
+//       }
+//     }
+
+//     .first-para-main {
+//       .first-para-content {
+//         .first-para-rightside {
+//           .first-para-text {
+//             .first-para-one {
+//               p {
+//                 font-size: 1rem !important;
+//               }
+//             }
+
+//             .first-para-two {
+//               p {
+//                 font-size: 1rem !important;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+
+//     .second-para-main {
+//       .second-para-content {
+//         .second-para-rightside {
+//           .second-para-text {
+//             .second-para-one {
+//               p {
+//                 font-size: 1rem !important;
+//               }
+//             }
+
+//             .second-para-two {
+//               p {
+//                 font-size: 1rem !important;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 992px) {
+  .about_main {
+    position: relative;
+
+    .about {
+      .about-back {
+        margin-top: -2.2rem;
+      }
+
+      .about-content {
+        //left: 1%;
+        position: relative;
+        color: black;
+
+        .about-heading {
+          //font-size: 4rem;
+        }
+
+        .about-paragraph {
+          font-size: 1.3rem;
+          width: 97%;
+        }
+
+        .isoMark {
+          position: absolute;
+          top: -95%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about_main {
+    .about {
+      .about-content {
+        .isoMark {
+          position: absolute;
+          top: -70%;
+
+          img {
+            width: 90%;
+          }
+        }
+      }
+    }
+
+    .about-years-section {
+      margin-top: 1rem;
+
+      .years-content {
+        .year-left {
+          .year-img {
+            width: 50%;
+          }
+        }
+      }
+    }
+
+    .second-para-main {
+      .second-para-content {
+        .second-para-rightside {
+          margin-top: 1rem;
+
+          .second-para-text {
+            text-align: start;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .about_main {
+    .about-years-section {
+      .years-content {
+        .year-left {
+          .year-img {
+            width: 60%;
+          }
+
+          .year-50 {
+            // font-size: 3.5rem;
+            // margin-top: -0.8rem;
+          }
+        }
+
+        .year-right {
+          .year-paragraph {
+            // font-size: 1rem;
+            // width: 85%;
+          }
+        }
+      }
+    }
+
+    .first-para-main {
+      .first-para-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .first-para-rightside {
+          .first-para-text {
+            .first-para-one {
+              h2 {
+                text-align: center;
+              }
+
+              p {
+                text-align: center;
+              }
+            }
+
+            .first-para-two {
+              h2 {
+                text-align: center;
+              }
+
+              p {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .second-para-main {
+      .second-para-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .second-para-rightside {
+          .second-para-text {
+            text-align: start;
+
+            .second-para-one {
+              margin-top: 1rem;
+
+              h2 {
+                text-align: center;
+              }
+
+              p {
+                text-align: center;
+              }
+            }
+
+            .second-para-two {
+              h2 {
+                text-align: center;
+              }
+
+              p {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 506px) {
+  .about_main {
+    .about {
+
+      // .about-back{
+      //   margin-top: -2.2rem;
+      // }
+      .about-content {
+        .isoMark {
+          position: absolute;
+          top: -60%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 429px) {
+  .about_main {
+    .about {
+
+      // .about-back{
+      //   margin-top: -2.2rem;
+      // }
+      .about-content {
+        .isoMark {
+          position: absolute;
+          top: -40%;
+
+          img {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 412px) {
+  .about_main {
+    // .about {
+    //   .about-back {
+    //     margin-top: -2rem;
+    //   }
+    //   .about-content {
+    //     color: black;
+    //     position: relative;
+    //     .about-heading {
+    //       font-size: 2rem;
+    //     }
+
+    //     .about-paragraph {
+    //       font-size: 1rem;
+    //       width: 111%;
+    //     }
+
+    //     .isoMark {
+    //       position: absolute;
+    //       img {
+    //         width: 46%;
+    //         margin-top: -29rem;
+    //         margin-left: 1rem;
+    //       }
+    //     }
+    //   }
+    // }
+
+    .about-years-section {
+      .years-content {
+        .year-left {
+          .year-img {
+            width: 79%;
+          }
+
+          .year-50 {
+            font-size: 3.5rem;
+            margin-top: -0.8rem;
+          }
+        }
+
+        .year-right {
+          .year-paragraph {
+            font-size: 1rem;
+            width: 85%;
+          }
+        }
+      }
+    }
+
+  }
+}

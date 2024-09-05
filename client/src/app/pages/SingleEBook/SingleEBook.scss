@@ -1,0 +1,189 @@
+.single-ebook {
+  position: relative;
+
+  &-back {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.single-ebook-card {
+  margin-top: -600px; 
+  z-index: 1;
+  position: relative;
+  height: 70vh;
+
+  .single-ebook-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .single-ebook-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      .single-ebook-whitebox {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+
+        .single-ebook-whitebox-content {
+          h1 {
+            font-size: 2rem;
+            color: #333;
+          }
+
+          p {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.6;
+          }
+        }
+
+        .white-box-btn {
+          text-align: end;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1448px){
+  .single-ebook-card {
+    margin-top: -500px;
+  }
+}
+
+@media(max-width: 1400px){
+  .single-ebook-card {
+    margin-top: -500px;
+    height: 50vh;
+  }
+}
+
+@media(max-width: 1200px){
+  .single-ebook-card {
+    margin-top: -400px;
+  }
+}
+
+@media(max-width: 992px){
+  .single-ebook-card {
+    margin-top: -300px;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .single-ebook-card {
+    margin-top: -100px;
+
+    .single-ebook-body {
+      .single-ebook-content {
+        padding: 10px;
+
+        .single-ebook-whitebox {
+          padding: 10px;
+
+          .single-ebook-whitebox-content {
+            h1 {
+              font-size: 1.5rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+// .single-ebook {
+//   .single-ebook-back {
+//     width: 90%;
+//     align-items: center;
+//     margin-left: 60px;
+//     z-index: -1;
+//     position: relative;
+//   }
+// }
+
+// .single-box {
+//   .single-row {
+//     .single-col {
+//       .single-white-box {
+//         margin: 0px 15px auto;
+//         background-color: white;
+//         border: 1px solid gray;
+//         border-radius: 10px;
+//         width: 80%;
+//         height: 100vh;
+//         padding: 30px 50px;
+//         position: absolute;
+//         top: 40%;
+//         .white-box-head {
+//           p {
+//             text-align: center;
+//           }
+//         }
+
+//         .white-box-desc {
+//           padding: 10px;
+
+//           h1 {
+//             font-weight: bold;
+//           }
+
+//           p {}
+//         }
+
+//         .white-box-btn {
+//           text-align: end;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width: 412px) {
+//   .single-box {
+//     .single-row {
+//       .single-col {
+//         .single-white-box {
+//           margin: 0px 15px auto;
+//           background-color: white;
+//           border: 1px solid gray;
+//           border-radius: 10px;
+//           width: 83%;
+//           height: 47vh;
+//           padding: 29px 50px;
+//           position: absolute;
+//           top: 22%;
+  
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .single-box {
+//   .single-row {
+//     .single-col {
+//       .single-white-box {
+//         width: 80%;
+//         height: 40vh;
+        
+//       }
+//     }
+//   }
+// }

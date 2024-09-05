@@ -1,0 +1,61 @@
+
+.navbar-nav .nav-link {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+nav {
+  .header-container {
+    img:hover {
+      cursor: pointer;
+    }
+
+    .navbar-collapse {
+      margin-right: 80px;
+    }
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 90%;
+    z-index: 1;
+  }
+
+  nav {
+    .header-container {
+      .navbar-collapse {
+        margin-left: 10px;
+        background-color: white;
+        margin-top: -2vh;
+        width: 100%;
+        position: relative;
+
+        .navbar-nav {
+          position: absolute;
+          background-color: white;
+          margin-top: -1vh;
+          width: 100%;
+        }
+
+      }
+    }
+  }
+}
+@media(max-width:500px){
+  .navbar{
+    .header-container{
+      img{
+        width: 5rem !important;
+      }
+    }
+  }
+}

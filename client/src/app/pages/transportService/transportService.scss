@@ -1,0 +1,394 @@
+.main-transport {
+  .transport-about {
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+    .transport-about-back {
+      width: 100%;
+      margin-top: -3rem;
+      height: auto;
+    }
+
+    .transport-about-content {
+      position: absolute;
+      top: -1%;
+      left: 4%;
+
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+
+      .transport-about-heading {
+        font-size: 5rem !important;
+        font-weight: bold;
+        width: 90%;
+      }
+
+      .transport-load-white-container-01 {
+        border: 1px solid grey;
+        background-color: white;
+        font-size: 1.3rem;
+        color: black;
+        width: 39%;
+        border-radius: 12px;
+        padding: 0.5rem;
+        //margin-top: 2rem;
+        ul {
+          li {
+          }
+        }
+      }
+    }
+  }
+
+  .contact-box {
+    margin-top: 5rem;
+    .line1 {
+      // color: #f15928;
+      background: #f15928;
+      position: absolute;
+      height: 0.2rem;
+      width: 100%;
+    }
+
+    .contact-now {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      width: 100%;
+
+      input {
+        border: 4px solid #f15928;
+        border-radius: 25px;
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        padding-left: 2rem;
+
+        margin-top: -1.4rem;
+        z-index: 1;
+      }
+
+      input::placeholder {
+        font-size: 1.2rem;
+        color: #f15928;
+        font-weight: 500;
+      }
+      input:focus {
+        border-color: #f15928;
+        outline: none;
+      }
+      button {
+        background: #f15928;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        width: 11rem;
+        padding: 5px;
+        margin-left: -2rem;
+        z-index: 2;
+        margin-top: -1.4rem;
+
+        // position: absolute;
+
+        // margin: 0px;
+        // bottom: -6rem;
+        // left: 2rem;
+      }
+    }
+  }
+  // .card-section {
+  //   width: 95%;
+  //   .card-row {
+  //     .card-col {
+  //       .card-display {
+  //         display: flex;
+  //         flex-wrap: wrap;
+
+  //         .jet-main {
+  //           width: 100%;
+  //           .jet-outer {
+  //             .jet-inner {
+  //               background-image: url("../../assets/Rectangle\ 169.png");
+  //               background-size: contain;
+  //               background-repeat: no-repeat;
+  //               background-size: 100% 100%;
+  //               padding: 1rem;
+
+  //               .jet-sub-inner {
+  //                 padding: 1rem;
+  //                 .know-more-1 {
+  //                   p {
+  //                     font-size: 20px;
+  //                     font-weight: 600;
+  //                     margin: 0;
+  //                     text-align: end;
+  //                     color: red;
+  //                     padding-right: 10px;
+  //                   }
+  //                 }
+  //                 .bottom {
+  //                   .bottom-inner {
+  //                     .part-1 {
+  //                       .head {
+  //                         p {
+  //                           margin: 0px;
+  //                           font-size: 15px;
+  //                         }
+  //                         ul {
+  //                           .p-1 {
+  //                             font-size: 15px;
+  //                           }
+  //                         }
+  //                       }
+  //                     }
+  //                     .part-2 {
+  //                       .img-outer-1 {
+  //                         img {
+  //                           width: 100%;
+  //                         }
+  //                       }
+  //                     }
+  //                   }
+  //                 }
+  //               }
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  .card-section {
+    width: 95%;
+    .card-row {
+      .card-col {
+        .card-display {
+          display: flex;
+          flex-wrap: wrap;
+
+          .jet-main {
+            width: 100%;
+            cursor: pointer;
+            .jet-outer {
+              .jet-inner {
+                background-image: url("../../assets/Rectangle\ 169.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                padding: 1rem;
+
+                .jet-sub-inner {
+                  padding: 1rem;
+                  .know-more-1 {
+                    p {
+                      font-size: 20px;
+                      font-weight: 600;
+                      margin: 0;
+                      text-align: end;
+                      color: red;
+                      padding-right: 10px;
+                    }
+                  }
+                  .bottom {
+                    .bottom-inner {
+                      .part-1 {
+                        .head {
+                          p {
+                            margin: 0px;
+                            font-size: 15px;
+                          }
+                          ul {
+                            .p-1 {
+                              font-size: 15px;
+                            }
+                          }
+                        }
+                      }
+                      .part-2 {
+                        .img-outer-1 {
+                          img {
+                            width: 100%;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1200px){
+  .main-transport .card-section .card-row .card-col .card-display .jet-main .jet-outer .jet-inner .jet-sub-inner .know-more-1 p {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .main-transport {
+    .transport-about {
+      .transport-about-content {
+        top:-17px;
+        .transport-about-heading {
+          font-size: 3rem !important;
+        }
+        .transport-load-white-container-01{
+          width: 50%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 830px) {
+  .main-transport {
+    .transport-about {
+      .transport-about-content {
+        top:-26px;
+        .transport-about-heading {
+          font-size: 3rem !important;
+        }
+        .transport-load-white-container-01{
+          width: 50%;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-transport {
+    .transport-about {
+      .transport-about-content {
+      top: -20px;
+        .transport-about-heading {
+          font-size: 2rem !important;
+          font-weight: bold;
+          width: 80%;
+        }
+
+        .transport-load-white-container-01 {
+          width: 55%;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .main-transport {
+    .transport-about {
+      .transport-about-back {
+        margin-top: -2.2rem;
+      }
+      .transport-about-content {
+        top: 0px;
+        left: 0px;
+        position: relative;
+        .transport-about-heading {
+          color: black;
+          text-align: center;
+          width: 100%;
+          margin: auto;
+          margin-bottom: 1rem;
+        }
+        .transport-load-white-container-01 {
+          margin: auto;
+          width: 90%;
+          font-size: 19px;
+          ul {
+            li {
+            }
+          }
+        }
+      }
+    }
+
+    .card-section {
+      .card-row {
+        .card-col {
+          .card-display {
+            .jet-main {
+              .jet-outer {
+                flex-direction: column;
+                .jet-inner {
+                  width: 100%;
+                  .jet-sub-inner {
+                  }
+                  .bottom {
+                    .bottom-inner {
+                      .part-1 {
+                      }
+                      .part-2 {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 412px) {
+  .main-transport {
+    .transport-about {
+      .transport-about-back {
+        margin-top: -2rem;
+      }
+      .transport-about-content {
+        .transport-about-heading {
+        }
+        .transport-load-white-container-01 {
+          ul {
+            li {
+            }
+          }
+        }
+      }
+    }
+
+    .card-section {
+      .card-row {
+        .card-col {
+          .card-display {
+            .jet-main {
+              .jet-outer {
+                flex-direction: column;
+                .jet-inner {
+                  width: 100%;
+                  .jet-sub-inner {
+                  }
+                  .bottom {
+                    .bottom-inner {
+                      .part-1 {
+                      }
+                      .part-2 {
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

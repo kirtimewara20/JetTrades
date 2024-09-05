@@ -1,0 +1,101 @@
+.galley-content {
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+
+.top-content {
+  width: 90%;
+  margin: 0 auto 20px auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #b31312;
+  border-radius: 8px;
+  background-image: linear-gradient(
+    -40deg,
+    #c40c0c 20%,
+    #e72929 58%,
+    #b31312 252%
+  );
+}
+
+.top-content button {
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #900c3f;
+  transition: background-color 0.3s ease;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    20deg,
+    #be3144 3%,
+    #b31312 50%,
+    #900c3f 252%
+  );
+}
+
+.top-content button:hover {
+  background-color: #c70039;
+  box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.296);
+  background-image: linear-gradient(
+    -40deg,
+    #be3144 3%,
+    #b31312 50%,
+    #e72929 252%
+  );
+}
+
+.alternating-gallery {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); // Responsive grid
+  grid-gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  height: auto; // Auto height for responsive images and videos
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  // border: 2px solid ;
+}
+.gallery-item{
+  border: 5px solid;
+  border-image: linear-gradient(to right, 
+                  red, tomato, orange, rgb(172, 122, 122));
+  border-image-slice: 12;
+  border-radius: 50px;
+
+  
+}
+
+.gallery-item video,
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  // border-radius: 10px;
+}
+
+@media (max-width: 400px) {
+  // Adjust breakpoint as needed
+  .top-content {
+    flex-direction: column; // Stack buttons vertically
+    height: auto; // Allow height to adjust based on content
+  }
+
+  .top-content button {
+    margin-bottom: 10px; // Add space between stacked buttons
+  }
+}

@@ -1,0 +1,469 @@
+.ftlservice-section {
+  .ftlservice-row {
+    .ftlservice-col {
+      h1 {
+        text-align: center;
+      }
+      .heading {
+        h1 {
+          color: red;
+          font-weight: 800;
+        }
+        .curve-line-product {
+          height: 64vh;
+          position: absolute;
+          margin-left: -1rem;
+        }
+        .heading-section {
+          .under-heading {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            h6 {
+              font-size: 24px;
+              color: red;
+              margin: 1rem;
+            }
+            .white-container-02 {
+              width: 100%;
+              border-radius: 15px;
+              border: 1px solid gray;
+              padding: 1rem;
+              .p1 {
+              }
+            }
+          }
+          .under-truck {
+            video {
+              width: 100%;
+              margin-top: 5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ftlservice-second {
+  .ftlservice-row {
+    .ftlservice-col {
+      .head-h2 {
+        text-align: center;
+        font-size: 30px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        color: red;
+      }
+      .ftlservice-parent {
+        .ftlservice-contentt {
+          .ftlservice-text {
+            border: 1px solid gray;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 10px;
+            h2 {
+              color: red;
+            }
+          }
+        }
+      }
+      .ftlservice-image {
+        margin: 20px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.ftlservice-third {
+  .ftlservice-image {
+    align-self: center;
+    img {
+      width: 100%;
+    }
+  }
+  .ftlservice-box1 {
+    display: flex;
+    flex-direction: column;
+
+    .main-child {
+      display: flex;
+      justify-content: space-evenly;
+      .ftlservice-box-subchild-1 {
+        border: 1px solid grey;
+        border-radius: 24px;
+        padding: 1rem;
+        background-color: white;
+        width: 45%;
+        margin: 1rem;
+        h1 {
+          font-size: 1.8rem;
+        }
+        p {
+        }
+      }
+      .ftlservice-box-subchild-2 {
+        border: 1px solid grey;
+        border-radius: 24px;
+        padding: 1rem;
+        background-color: white;
+        width: 45%;
+        margin: 1rem;
+        h1 {
+          font-size: 1.8rem;
+        }
+        p {
+        }
+      }
+    }
+    .sub-main-child {
+      display: flex;
+      justify-content: space-evenly;
+      .ftlservice-box-subchild-3 {
+        border: 1px solid grey;
+        border-radius: 24px;
+        padding: 1rem;
+        background-color: white;
+        width: 45%;
+        margin: 1rem;
+        h1 {
+          font-size: 1.6rem;
+        }
+        p {
+        }
+      }
+      .ftlservice-box-subchild-4 {
+        border: 1px solid grey;
+        width: 45%;
+        border-radius: 24px;
+        padding: 1rem;
+        background-color: white;
+        margin: 1rem;
+        h1 {
+          font-size: 1.7rem;
+        }
+        p {
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .ftlservice-section {
+    .ftlservice-row {
+      .ftlservice-col {
+        .heading {
+          .curve-line-product {
+            height: 98vh;
+          }
+          .heading-section {
+            .under-heading {
+            }
+            .under-truck {
+              video {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .ftlservice-section {
+    .ftlservice-row {
+      .ftlservice-col {
+        .heading {
+          .curve-line-product {
+            height: 70vh;
+          }
+          .heading-section {
+            .under-heading {
+            }
+            .under-truck {
+              video {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .ftlservice-second {
+    .ftlservice-row {
+      .ftlservice-col {
+        padding: 10px;
+        h1 {
+          text-align: center;
+        }
+
+        .heading {
+          h1 {
+            color: red;
+            font-weight: 800;
+          }
+          .curve-line-product {
+            height: 96vh;
+            position: absolute;
+            margin-left: -1rem;
+          }
+          .heading-section {
+            padding: 10px;
+            .under-heading {
+              padding-left: 2px;
+              h6 {
+                font-size: 24px;
+                color: red;
+                margin: 10px;
+              }
+              .white-container-02 {
+                width: 100%;
+                border-radius: 15px;
+                border: 1px solid gray;
+                padding: 10px;
+                .p1 {
+                  padding-left: 18px;
+                  width: 30%;
+                  font-size: 14px;
+                  position: absolute;
+                  margin-top: 0rem;
+                }
+              }
+              img {
+                width: 95%;
+              }
+              .p1 {
+                padding-left: 18px;
+                width: 30%;
+                font-size: 17px;
+                position: absolute;
+                margin-top: 13px;
+              }
+              .p2 {
+                padding-left: 18px;
+                width: 30%;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 330px;
+              }
+              .p3 {
+                padding-left: 18px;
+                width: 30%;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 560px;
+              }
+            }
+            .under-truck {
+              video {
+                width: 100%;
+                margin-left: 1rem;
+                margin-top: 5rem;
+              }
+            }
+          }
+        }
+        .ftlservice-parent {
+          flex-direction: column;
+          .ftlservice-contentt {
+            width: 90%;
+            margin: auto;
+          }
+          .ftlservice-image {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .ftlservice-third {
+    display: flex;
+    flex-direction: column;
+    .ftlservice-image {
+      align-self: center;
+      width: 100%;
+      img {
+      }
+    }
+    .ftlservice-box1 {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .main-child {
+        display: flex;
+        width: 100%;
+        .ftlservice-box-subchild-1 {
+          border: 1px solid grey;
+          border-radius: 24px;
+          padding: 1rem;
+          background-color: white;
+          width: 100%;
+          margin: 1rem;
+          h1 {
+            font-size: 1.8rem;
+          }
+          p {
+            width: 100%;
+          }
+        }
+        .ftlservice-box-subchild-2 {
+          border: 1px solid grey;
+          border-radius: 24px;
+          padding: 1rem;
+          background-color: white;
+          width: 100%;
+          margin: 1rem;
+          h1 {
+            font-size: 1.8rem;
+          }
+          p {
+          }
+        }
+      }
+      .sub-main-child {
+        display: flex;
+        width: 100%;
+        .ftlservice-box-subchild-3 {
+          border: 1px solid grey;
+          border-radius: 24px;
+          padding: 1rem;
+          background-color: white;
+          width: 100%;
+          margin: 1rem;
+          h1 {
+            font-size: 1.6rem;
+          }
+          p {
+          }
+        }
+        .ftlservice-box-subchild-4 {
+          border: 1px solid grey;
+          width: 100%;
+          border-radius: 24px;
+          padding: 1rem;
+          background-color: white;
+          margin: 1rem;
+          h1 {
+            font-size: 1.7rem;
+          }
+          p {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .ftlservice-section {
+    .ftlservice-row {
+      .ftlservice-col {
+        width: 100%;
+        .heading {
+          width: 100%;
+          .curve-line-product {
+            height: 80vh;
+            margin-left: -8px;
+          }
+          .heading-section {
+            flex-direction: column;
+            .under-heading {
+              h6 {
+                font-size: 20px !important;
+                width: max-content;
+              }
+              .white-container-02 {
+                width: 100%;
+                .p1 {
+                  font-size: 15px;
+                  margin-top: auto;
+                  width: 100%;
+                }
+              }
+              img {
+                width: 80%;
+              }
+              .p1 {
+                width: 0%;
+              }
+            }
+            .under-truck {
+              width: 100%;
+              video {
+                margin-top: 2rem;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ftlservice-second {
+    .ftlservice-row {
+      .ftlservice-col {
+        .ftlservice-parent {
+          flex-direction: column;
+          //margin-left: 1rem;
+          .ftlservice-contentt {
+            width: 90%;
+            margin: auto;
+          }
+          .ftlservice-image {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .ftlservice-image {
+    width: 94%;
+    img {
+      width: 100%;
+    }
+  }
+  .ftlservice-third {
+    flex-direction: column;
+    .ftlservice-image {
+      margin-left: 0px;
+    }
+
+    .ftlservice-box1 {
+      margin-top: 20px;
+      margin-left: 0px;
+      .main-child {
+        flex-direction: column;
+        margin-left: 0px;
+        .ftlservice-box-subchild-1 {
+          width: 90%;
+        }
+        .ftlservice-box-subchild-2 {
+          width: 90%;
+        }
+      }
+      .sub-main-child {
+        flex-direction: column;
+        .ftlservice-box-subchild-3 {
+          width: 90%;
+        }
+        .ftlservice-box-subchild-4 {
+          width: 90%;
+        }
+      }
+    }
+  }
+}

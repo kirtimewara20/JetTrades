@@ -1,0 +1,141 @@
+// .single-blog {
+//   .single-blog-back {
+//     width: 90%;
+//     margin-left: 60px;
+//     z-index: -1;
+//     position: relative;
+//   }
+// }
+// .single-blog-card {
+//   .single-blog-body {
+//     .single-blog-content {
+//       .single-blog-whitebox {
+//         margin: 0px 15px auto;
+//         background-color: white;
+//         border: 1px solid gray;
+//         border-radius: 10px;
+//         width: 83%;
+//         height: 85vh;
+//         padding: 30px 50px;
+//         position: absolute;
+//         top: 30%;
+//         overflow-y: scroll;
+
+//         .single-blog-whitebox-content{
+//           padding: 10px;
+//           h1 {
+//             font-weight: bold;
+//             text-align: center;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @media (max-width:412px){
+//   .single-box{
+//     .single-row{
+//       .single-col{
+//         .single-white-box1{
+//           height: 57vh;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.single-blog {
+  position: relative;
+
+  &-back {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+}
+
+.single-blog-card {
+  //margin-top: -600px; 
+  top:10%;
+  z-index: 1;
+  position: relative;
+  height: auto;
+
+  .single-blog-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .single-blog-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      .single-blog-whitebox {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+
+        .single-blog-whitebox-content {
+          h1 {
+            font-size: 2rem;
+            color: #333;
+          }
+
+          p {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.6;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1400px){
+  .single-blog-card {
+    margin-top: -500px;
+  }
+}
+
+@media(max-width: 1200px){
+  .single-blog-card {
+    margin-top: -400px;
+  }
+}
+
+@media(max-width: 992px){
+  .single-blog-card {
+    margin-top: -300px;
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .single-blog-card {
+    margin-top: -100px;
+
+    .single-blog-body {
+      .single-blog-content {
+        padding: 10px;
+
+        .single-blog-whitebox {
+          padding: 10px;
+
+          .single-blog-whitebox-content {
+            h1 {
+              font-size: 1.5rem;
+            }
+
+            p {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1069 @@
+.main-dimensional {
+  .dimensional-about {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    .img {
+      width: 100%;
+    }
+    .dimensional-about-back {
+      width: 100%;
+      margin-top: -3rem;
+    }
+
+    .dimensional-about-content {
+      position: absolute;
+      top: -1%;
+      left: 4%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+
+      .dimensional-about-heading {
+        font-size: 5rem;
+        font-weight: bold;
+        width: 90%;
+      }
+
+      .dimensional-load-white-container-01 {
+        border: 1px solid grey;
+        background-color: white;
+        font-size: 1.1rem;
+        color: black;
+        width: 38%;
+        border-radius: 12px;
+        padding: 0.5rem;
+        ul {
+          margin-bottom: 0px;
+          li {
+          }
+        }
+      }
+    }
+  }
+  .expertise-section {
+    width: 100%;
+
+    .expertise-row {
+      .expertise-col {
+        width: 100%;
+
+        .expertise {
+          text-align: center;
+          font-size: 45px;
+        }
+
+        .paragraph-1 {
+          text-align: center;
+          width: 100%;
+          font-size: 1.5rem;
+        }
+
+        .expertise-containers1 {
+          display: flex;
+          justify-content: space-evenly;
+
+          .expertise-col1 {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 31%;
+            border: 1px solid gray;
+            border-radius: 20px;
+
+            .paragraph {
+              margin-top: 12px;
+              font-size: 25px;
+              color: red;
+              text-align: center;
+            }
+
+            .para-div {
+              text-align: center;
+              margin: 1rem;
+              flex-grow: 1; //makes the para-div take up available space
+              .paras {
+                //padding: 0;
+                //text-align: justify;
+                font-size: 1.2rem;
+              }
+            }
+
+            .image-3 {
+              width: 45%;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .contact-box {
+    margin-top: 3rem;
+
+    .line1 {
+      color: #f15928;
+      background: #f15928;
+      position: absolute;
+      height: 0.4rem;
+      width: 100%;
+    }
+
+    .contact-now {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      // align-items: center;
+      // margin-left: -45px;
+      // position: relative;
+      width: 100%;
+
+      input {
+        border: 4px solid #f15928;
+        border-radius: 25px;
+        width: 20rem;
+        height: 3rem;
+        font-size: 1rem;
+        padding-left: 2rem;
+
+        margin-top: -1.4rem;
+        // margin-left: -1rem;
+        z-index: 1;
+      }
+
+      input::placeholder {
+        font-size: 1.2rem;
+        color: #f15928;
+        // padding-left: 9%;
+        font-weight: 500;
+      }
+
+      input:focus {
+        border-color: #f15928;
+        /* Set border color on focus */
+        outline: none;
+      }
+
+      button {
+        background: #f15928;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        width: 11rem;
+        padding: 5px;
+        margin-left: -2rem;
+        z-index: 2;
+        margin-top: -1.4rem;
+      }
+    }
+  }
+  .card-section {
+    .card-row {
+      .card-col {
+        .card-display {
+          display: flex;
+          flex-wrap: wrap;
+
+          .jet-main {
+            width: 100%;
+            cursor: pointer;
+
+            .jet-outer {
+              .jet-inner {
+                background-image: url("../../assets/Rectangle\ 169.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
+                .jet-sub-inner {
+                  padding: 2rem;
+
+                  .know-more-1 {
+                    p {
+                      font-size: 20px;
+                      font-weight: 600;
+                      margin: 0;
+                      text-align: end;
+                      color: rgb(255, 0, 0);
+                      padding-right: 10px;
+                    }
+                  }
+
+                  .bottom {
+                    .bottom-inner {
+                      .part-1 {
+                        .head {
+                          p {
+                            margin: 0px;
+                            font-size: 10px;
+                          }
+
+                          ul {
+                            .p-1 {
+                              font-size: 15px;
+                            }
+                          }
+                        }
+                      }
+
+                      .part-2 {
+                        .img-outer-1 {
+                          img {
+                            width: 100%;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1200px){
+  .main-dimensional .card-section .card-row .card-col .card-display .jet-main .jet-outer .jet-inner .jet-sub-inner .know-more-1 p {
+    font-size: 16px;
+    padding-right: 0px;
+ }
+}
+
+@media (max-width: 1024px) {
+  .main-dimensional {
+    .dimensional-about {
+      .dimensional-about-back {
+      }
+
+      .dimensional-about-content {
+        top: -1%;
+        .dimensional-about-heading {
+          font-size: 3rem !important ;
+        }
+
+        .dimensional-load-white-container-01 {
+          
+          ul {
+            li {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .expertise-section {
+      width: 90%;
+      .expertise-row {
+        .expertise-col {
+          //margin-top: 25rem;
+          padding: 1rem;
+          width: 50rem;
+          .expertise {
+            text-align: center;
+            font-size: 3rem;
+            // margin-left: 13rem;
+          }
+          .paragraph-1 {
+            font-size: 1.3rem;
+          }
+
+          .expertise-containers1 {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            .expertise-col1 {
+              width: 100%;
+              margin: 15px;
+              border: 1px solid gray;
+              border-radius: 20px;
+
+              .paragraph {
+                // margin-top: 30px;
+                // font-size: 50px;
+                // color: red;
+                // text-align: center;
+                //margin-left: 20px;
+              }
+              .para-div {
+                display: flex;
+
+                .paras {
+                  // margin: 0px 30px auto;
+                  // padding: 0;
+                  // margin: 30px 10px;
+                  // text-align: justify;
+                  // font-size: 1.2rem;
+                }
+              }
+              .image-3 {
+                // margin: 20px 100px 22px;
+                width: 30%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .contact-box {
+      margin-top: 3rem;
+
+      .line1 {
+        color: #f15928;
+        background: #f15928;
+        position: absolute;
+        height: 0.4rem;
+        width: 100%;
+      }
+
+      .contact-now {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        // align-items: center;
+        // margin-left: -45px;
+        // position: relative;
+        width: 100%;
+
+        input {
+          border: 4px solid #f15928;
+          border-radius: 25px;
+          width: 20rem;
+          height: 3rem;
+          font-size: 1rem;
+          padding-left: 2rem;
+
+          margin-top: -1.4rem;
+          // margin-left: -1rem;
+          z-index: 1;
+        }
+
+        input::placeholder {
+          font-size: 1.2rem;
+          color: #f15928;
+          // padding-left: 9%;
+          font-weight: 500;
+        }
+
+        input:focus {
+          border-color: #f15928;
+          /* Set border color on focus */
+          outline: none;
+        }
+
+        button {
+          background: #f15928;
+          border-radius: 20px;
+          border: none;
+          color: white;
+          font-size: 1.2rem;
+          font-weight: 500;
+          width: 9rem;
+          padding: 5px;
+          margin-left: -2rem;
+          z-index: 2;
+          margin-top: -1.4rem;
+
+          // position: absolute;
+
+          // margin: 0px;
+          // bottom: -6rem;
+          // left: 2rem;
+        }
+      }
+    }
+    .card-section {
+      .card-row {
+        .card-col {
+          .card-display {
+            display: flex;
+            flex-wrap: wrap;
+
+            .jet-main {
+              width: 100%;
+              cursor: pointer;
+
+              .jet-outer {
+                .jet-inner {
+                  background-image: url("../../assets/Rectangle\ 169.png");
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+
+                  .jet-sub-inner {
+                    padding: 2rem;
+
+                    .know-more-1 {
+                      p {
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin: 0;
+                        text-align: end;
+                        color: rgb(255, 0, 0);
+                        padding-right: 10px;
+                      }
+                    }
+
+                    .bottom {
+                      .bottom-inner {
+                        .part-1 {
+                          .head {
+                            p {
+                              margin: 0px;
+                              font-size: 10px;
+                            }
+
+                            ul {
+                              .p-1 {
+                                font-size: 15px;
+                              }
+                            }
+                          }
+                        }
+
+                        .part-2 {
+                          .img-outer-1 {
+                            img {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 995px) {
+  .main-dimensional {
+    .dimensional-about {
+      .dimensional-about-back {
+      }
+
+      .dimensional-about-content {
+        .dimensional-about-heading {
+          font-size: 3rem !important;
+        }
+
+        .dimensional-load-white-container-01 {
+          padding: 0px;
+          ul {
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-dimensional {
+    .dimensional-about {
+      .dimensional-about-back {
+      }
+
+      .dimensional-about-content {
+        top: -12%;
+        .dimensional-about-heading {
+          font-size: 2rem !important ;
+        }
+
+        .dimensional-load-white-container-01 {
+          padding: 0px;
+          width: 42%;
+          ul {
+            li {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+
+    .expertise-section {
+      width: 90%;
+      .expertise-row {
+        .expertise-col {
+          //margin-top: 25rem;
+          padding: 1rem;
+          width: 50rem;
+          .expertise {
+            text-align: center;
+            font-size: 3rem;
+            // margin-left: 13rem;
+          }
+          .paragraph-1 {
+            font-size: 1.3rem;
+          }
+
+          .expertise-containers1 {
+            display: flex;
+            flex-direction: column;
+            gap: 36px;
+            .expertise-col1 {
+              width: 100%;
+              margin: 15px;
+              border: 1px solid gray;
+              border-radius: 20px;
+
+              .paragraph {
+                // margin-top: 30px;
+                // font-size: 50px;
+                // color: red;
+                // text-align: center;
+                //margin-left: 20px;
+              }
+              .para-div {
+                display: flex;
+
+                .paras {
+                  // margin: 0px 30px auto;
+                  // padding: 0;
+                  // margin: 30px 10px;
+                  // text-align: justify;
+                  // font-size: 1.2rem;
+                }
+              }
+              .image-3 {
+                // margin: 20px 100px 22px;
+                width: 30%;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .contact-box {
+      margin-top: 3rem;
+
+      .line1 {
+        color: #f15928;
+        background: #f15928;
+        position: absolute;
+        height: 0.4rem;
+        width: 100%;
+      }
+
+      .contact-now {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        // align-items: center;
+        // margin-left: -45px;
+        // position: relative;
+        width: 100%;
+
+        input {
+          border: 4px solid #f15928;
+          border-radius: 25px;
+          width: 20rem;
+          height: 3rem;
+          font-size: 1rem;
+          padding-left: 2rem;
+
+          margin-top: -1.4rem;
+          // margin-left: -1rem;
+          z-index: 1;
+        }
+
+        input::placeholder {
+          font-size: 1.2rem;
+          color: #f15928;
+          // padding-left: 9%;
+          font-weight: 500;
+        }
+
+        input:focus {
+          border-color: #f15928;
+          /* Set border color on focus */
+          outline: none;
+        }
+
+        button {
+          background: #f15928;
+          border-radius: 20px;
+          border: none;
+          color: white;
+          font-size: 1.2rem;
+          font-weight: 500;
+          width: 11rem;
+          padding: 5px;
+          margin-left: -2rem;
+          z-index: 2;
+          margin-top: -1.4rem;
+
+          // position: absolute;
+
+          // margin: 0px;
+          // bottom: -6rem;
+          // left: 2rem;
+        }
+      }
+    }
+    .card-section {
+      .card-row {
+        .card-col {
+          .card-display {
+            display: flex;
+            flex-wrap: wrap;
+
+            .jet-main {
+              width: 100%;
+              cursor: pointer;
+
+              .jet-outer {
+                .jet-inner {
+                  background-image: url("../../assets/Rectangle\ 169.png");
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+
+                  .jet-sub-inner {
+                    padding: 2rem;
+
+                    .know-more-1 {
+                      p {
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin: 0;
+                        text-align: end;
+                        color: rgb(255, 0, 0);
+                        padding-right: 10px;
+                      }
+                    }
+
+                    .bottom {
+                      .bottom-inner {
+                        .part-1 {
+                          .head {
+                            p {
+                              margin: 0px;
+                              font-size: 10px;
+                            }
+
+                            ul {
+                              .p-1 {
+                                font-size: 15px;
+                              }
+                            }
+                          }
+                        }
+
+                        .part-2 {
+                          .img-outer-1 {
+                            img {
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .main-dimensional {
+    .dimensional-about {
+      .dimensional-about-back {
+        margin-top: -2.2rem;
+      }
+
+      .dimensional-about-content {
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        position: relative;
+        .dimensional-about-heading {
+          text-align: center;
+          color: black;
+          width: 100%;
+        }
+
+        .dimensional-load-white-container-01 {
+          padding: 10px;
+          width: 100%;
+          ul {
+            margin: 0.2rem;
+            li {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .expertise-section {
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 12rem;
+      .expertise-row {
+        .expertise-col {
+          .expertise {
+            margin-top: -10rem;
+            font-size: 2rem;
+            .paragraph-1 {
+              margin-left: auto;
+              width: 25rem;
+              font-size: 1rem;
+            }
+          }
+          .expertise-containers1 {
+            flex-direction: column;
+            gap: 2rem;
+            margin: 1rem;
+            .expertise-col1 {
+              width: 100%;
+              margin: 0px;
+              .para-div {
+                display: flex;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // .contact-box {
+    //   margin-top: 1rem;
+
+    //   .line1 {
+    //     color: #f15928;
+    //     background: #f15928;
+    //     position: absolute;
+    //     height: 0.4rem;
+    //     width: 100%;
+    //   }
+
+    //   .contact-now {
+    //     display: flex;
+    //     justify-content: center;
+    //     flex-direction: row;
+    //     width: 100%;
+
+    //     input {
+    //       border: 4px solid #f15928;
+    //       border-radius: 25px;
+    //       width: 20rem;
+    //       height: 3rem;
+    //       font-size: 1rem;
+    //       padding-left: 2rem;
+    //       position: relative;
+    //       left: 5rem;
+    //       margin-top: -1.4rem;
+    //       z-index: 1;
+    //     }
+
+    //     input::placeholder {
+    //       font-size: 1.2rem;
+    //       color: #f15928;
+    //       font-weight: 500;
+    //     }
+
+    //     input:focus {
+    //       border-color: #f15928;
+    //       outline: none;
+    //     }
+
+    //     button {
+    //       background: #f15928;
+    //       border-radius: 100px;
+    //       border: none;
+    //       color: white;
+    //       font-size: 1.2rem;
+    //       font-weight: 500;
+    //       width: 16rem;
+    //       padding: 9px 14px;
+    //       margin-left: -2rem;
+    //       z-index: 2;
+    //       margin-top: -1.4rem;
+    //       position: relative;
+    //       top: 3.3rem;
+    //       right: 7rem;
+    //     }
+    //   }
+    // }
+
+    .card-section {
+      .card-row {
+        .card-col {
+          .card-display {
+            display: flex;
+            flex-wrap: wrap;
+
+            .jet-main {
+              width: 100%;
+              cursor: pointer;
+
+              .jet-outer {
+                .jet-inner {
+                  background-image: url("../../assets/Rectangle\ 169.png");
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+
+                  .jet-sub-inner {
+                    padding: 2rem;
+
+                    .know-more-1 {
+                      p {
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin: 0;
+                        text-align: end;
+                        color: rgb(255, 0, 0);
+                        padding-right: 10px;
+                      }
+                    }
+
+                    .bottom {
+                      .bottom-inner {
+                        .part-1 {
+                          .head {
+                            p {
+                              margin: 0px;
+                              font-size: 10px;
+                            }
+
+                            ul {
+                              .p-1 {
+                                font-size: 15px;
+                              }
+                            }
+                          }
+                        }
+
+                        .part-2 {
+                          .img-outer-1 {
+                            img {
+                              width: 100%;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 412px) {
+  .main-dimensional {
+    .dimensional-about {
+      .dimensional-about-back {
+        margin-top: -2rem;
+      }
+
+      .dimensional-about-content {
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        position: relative;
+        .dimensional-about-heading {
+          text-align: center;
+          color: black;
+          width: 100%;
+        }
+
+        .dimensional-load-white-container-01 {
+          padding: 10px;
+          width: 100%;
+          ul {
+            margin: 0.2rem;
+            li {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .expertise-section {
+      width: 100%;
+      margin-left: 0px;
+      margin-top: 12rem;
+      .expertise-row {
+        .expertise-col {
+          .expertise {
+            margin-top: -10rem;
+            font-size: 2rem;
+            .paragraph-1 {
+              margin-left: auto;
+              width: 25rem;
+              font-size: 1rem;
+            }
+          }
+          .expertise-containers1 {
+            flex-direction: column;
+            gap: 2rem;
+            margin: 1rem;
+            .expertise-col1 {
+              width: 100%;
+              margin: 0px;
+              .para-div {
+                display: flex;
+                flex-direction: column;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // .contact-box {
+    //   margin-top: 1rem;
+
+    //   .line1 {
+    //     color: #f15928;
+    //     background: #f15928;
+    //     position: absolute;
+    //     height: 0.4rem;
+    //     width: 100%;
+    //   }
+
+    //   .contact-now {
+    //     display: flex;
+    //     justify-content: center;
+    //     flex-direction: row;
+    //     width: 100%;
+
+    //     input {
+    //       border: 4px solid #f15928;
+    //       border-radius: 25px;
+    //       width: 20rem;
+    //       height: 3rem;
+    //       font-size: 1rem;
+    //       padding-left: 2rem;
+    //       position: relative;
+    //       left: 5rem;
+    //       margin-top: -1.4rem;
+    //       z-index: 1;
+    //     }
+
+    //     input::placeholder {
+    //       font-size: 1.2rem;
+    //       color: #f15928;
+    //       font-weight: 500;
+    //     }
+
+    //     input:focus {
+    //       border-color: #f15928;
+    //       outline: none;
+    //     }
+
+    //     button {
+    //       background: #f15928;
+    //       border-radius: 100px;
+    //       border: none;
+    //       color: white;
+    //       font-size: 1.2rem;
+    //       font-weight: 500;
+    //       width: 16rem;
+    //       padding: 9px 14px;
+    //       margin-left: -2rem;
+    //       z-index: 2;
+    //       margin-top: -1.4rem;
+    //       position: relative;
+    //       top: 3.3rem;
+    //       right: 7rem;
+    //     }
+    //   }
+    // }
+
+    .card-section {
+      .card-row {
+        .card-col {
+          .card-display {
+            display: flex;
+            flex-wrap: wrap;
+
+            .jet-main {
+              width: 100%;
+              cursor: pointer;
+
+              .jet-outer {
+                .jet-inner {
+                  background-image: url("../../assets/Rectangle\ 169.png");
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+
+                  .jet-sub-inner {
+                    padding: 2rem;
+
+                    .know-more-1 {
+                      p {
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin: 0;
+                        text-align: end;
+                        color: rgb(255, 0, 0);
+                        padding-right: 10px;
+                      }
+                    }
+
+                    .bottom {
+                      .bottom-inner {
+                        .part-1 {
+                          .head {
+                            p {
+                              margin: 0px;
+                              font-size: 10px;
+                            }
+
+                            ul {
+                              .p-1 {
+                                font-size: 15px;
+                              }
+                            }
+                          }
+                        }
+
+                        .part-2 {
+                          .img-outer-1 {
+                            img {
+                              width: 100%;
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

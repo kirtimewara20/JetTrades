@@ -1,0 +1,520 @@
+// .ftl-main {
+//   .ftlservice-section-1 {
+//     .ftlservice-row-1 {
+//       .ftlservice-col-1 {
+//         h1 {
+//           text-align: center;
+//         }
+//         .heading {
+//           h1 {
+//             color: red;
+//             font-weight: 800;
+//           }
+//           .curve-line {
+//             height: 64vh;
+//             position: absolute;
+//             margin-left: -1rem;
+//           }
+//           .heading-section2 {
+//             .under-heading2 {
+//               display: flex;
+//               flex-direction: column;
+//               flex-grow: 1;
+//               h6 {
+//                 font-size: 24px;
+//                 color: red;
+//                 margin: 10px;
+//               }
+
+//               .white-container-03 {
+//                 width: 84%;
+//                 height: 30%;
+//                 border-radius: 15px;
+//                 border: 1px solid gray;
+//                 padding: 1rem;
+//               }
+//             }
+
+//             .under-truck {
+//               img {
+//                 width: 100%;
+//                 margin-top: 20px;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   .ftlservice-second-1 {
+//     .fltservice-1-content {
+//       display: flex;
+//       flex-direction: column;
+
+//       .ftlservice-image {
+//         img {
+//           width: 100%;
+//         }
+//       }
+
+//       .ftlservice-heading {
+//         margin-left: 35px;
+//         margin-bottom: -20px;
+//         margin-top: -28rem;
+
+//         .head {
+//           font-size: 35px;
+
+//           span {
+//             margin: 0px 50px auto;
+//             font-weight: 800;
+//             color: red;
+//           }
+//         }
+
+//         .ftlservice-box {
+//           width: 36.1%;
+//           border: 1px solid gray;
+//           border-radius: 20px;
+//           padding-left: 20px;
+//           margin: 15px 0px;
+
+//           h1 {
+//             color: red;
+//             margin-top: 25px;
+//             font-size: 22px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+.ftlservice-section-1 {
+  .ftlservice-row-1 {
+    .ftlservice-col-1 {
+      h1 {
+        text-align: center;
+      }
+      .heading {
+        h1 {
+          color: red;
+          font-weight: 800;
+        }
+        .curve-line {
+          height: 78vh;
+          position: absolute;
+          margin-left: -1rem;
+        }
+        .heading-section2 {
+          .under-heading2 {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            h6 {
+              font-size: 24px;
+              color: red;
+              margin: 10px;
+            }
+
+            .white-container-03 {
+              width: 100%;
+              height: 25%;
+              border-radius: 15px;
+              border: 1px solid gray;
+              padding: 1rem;
+            }
+          }
+
+          .under-truck {
+            img {
+              width: 100%;
+              margin-top: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ftlservice-second-1 {
+  .fltservice-1-content {
+    display: flex;
+    flex-direction: column;
+
+    .ftlservice-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .ftlservice-heading {
+      margin-left: 35px;
+      margin-bottom: -20px;
+      margin-top: -28rem;
+
+      .head {
+        font-size: 35px;
+
+        span {
+          margin: 0px 50px auto;
+          font-weight: 800;
+          color: red;
+        }
+      }
+
+      .ftlservice-box {
+        width: 36.1%;
+        border: 1px solid gray;
+        border-radius: 20px;
+        padding-left: 20px;
+        margin: 15px 0px;
+
+        h1 {
+          color: red;
+          margin-top: 25px;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1448px){
+  .ftlservice-section-1 {
+    .ftlservice-row-1 {
+      .ftlservice-col-1 {
+        .heading {
+          .curve-line {
+            height: 120vh;
+          }
+          .heading-section2 {
+            .under-heading2 {
+            }
+            .under-truck {
+              image {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1024px){
+  .ftlservice-section-1 {
+    .ftlservice-row-1 {
+      .ftlservice-col-1 {
+        .heading {
+          .curve-line {
+            height: 110vh;
+          }
+          .heading-section2 {
+            .under-heading2 {
+            }
+            .under-truck {
+              image {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .ftlservice-second-1{
+    .ftlservice-heading{
+      .head{
+        margin-top: 3rem;
+      }
+    }
+  }
+}
+
+@media(max-width: 992px){
+  .ftlservice-section-1 {
+    .ftlservice-row-1 {
+      .ftlservice-col-1 {
+        .heading {
+          .curve-line {
+            height: 70vh;
+            margin-left: 0px;
+          }
+          .heading-section2 {
+            .under-heading2 {
+            }
+            .under-truck {
+              image {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 970px) {
+  .ftlservice-section-1 {
+    .ftlservice-row-1 {
+      .ftlservice-col-1 {
+        padding: 10px;
+
+        h1 {
+          text-align: center;
+        }
+
+        .heading {
+          h1 {
+            color: red;
+            font-weight: 800;
+          }
+
+          .curve-line {
+            height: 99vh;
+            position: absolute;
+          }
+
+          .heading-section2 {
+            padding: 10px;
+
+            .under-heading2 {
+              padding-left: 20px;
+
+              h6 {
+                font-size: 24px;
+                color: red;
+                margin: 10px;
+              }
+
+              .white-container-03 {
+                width: 100%;
+                height: 147px;
+                border-radius: 15px;
+                border: 1px solid gray;
+                padding: 10px;
+
+                .p1 {
+                  width: 80%;
+                  font-size: 14px;
+                  position: absolute;
+                  margin-top: 13px;
+                }
+              }
+
+              img {
+                width: 95%;
+              }
+
+            
+
+              .p2 {
+                padding-left: 18px;
+                width: 30%;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 330px;
+              }
+
+              .p3 {
+                padding-left: 18px;
+                width: 30%;
+                font-size: 18px;
+                position: absolute;
+                margin-top: 560px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .ftlservice-second-1 {
+    .fltservice-1-content {
+      .ftlservice-heading {
+        margin-top: 0rem;
+        margin-left: 0px;
+        .head{
+          text-align: center;
+        }
+        .ftlservice-box{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  // .ftlservice-section-1 {
+  //   .ftlservice-row-1 {
+  //     .ftlservice-col-1 {
+  //       .heading {
+  //         .curve-line {
+  //           height: 90vh;
+  //         }
+  //         .heading-section2 {
+  //           .under-heading2 {
+  //             .white-container-03 {
+  //               width: 94%;
+  //               padding: 1px;
+  //             }
+  //           }
+
+  //           .under-truck {
+  //             img {
+  //               margin-top: 5rem;
+  //               width: 80%;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  //   .fltservice-1-content {
+  //     display: flex;
+  //     flex-direction: column;
+
+  //     .ftlservice-image {
+  //       img {
+  //         width: 100%;
+  //       }
+  //     }
+
+  //     .ftlservice-heading {
+  //       margin-left: 0px;
+  //       margin-bottom: -20px;
+
+  //       .head {
+  //         font-size: 35px;
+
+  //         span {
+  //           margin: 0px 50px auto;
+  //           font-weight: 800;
+  //           color: red;
+  //         }
+  //       }
+
+  //       .ftlservice-box {
+  //         width: 36.1%;
+  //         border: 1px solid gray;
+  //         border-radius: 20px;
+  //         padding-left: 20px;
+  //         margin: 15px 0px;
+
+  //         h1 {
+  //           color: red;
+  //           margin-top: 25px;
+  //           font-size: 22px;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
+  .ftlservice-second-1 {
+    .ftlservice-image {
+    }
+    .ftlservice-heading {
+
+      .ftlservice-box {
+        width: 100%;
+        margin-top: 332px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 567px) {
+  .ftlservice-section-1 {
+    .ftlservice-row-1 {
+      .ftlservice-col-1 {
+        width: 100%;
+        .heading {
+          .curve-line {
+            height: 80vh;
+          }
+
+          .heading-section2 {
+            flex-direction: column;
+
+            .under-heading2 {
+              // margin-left: -1rem;
+              // margin-top: -1rem;
+
+              h6 {
+                font-size: 20px !important;
+                width: max-content;
+                //margin-left: -0.2rem;
+              }
+
+              .white-container-03 {
+                width: 100%;
+                //padding: 1rem;
+                .p1 {
+                  // font-size: 17px;
+                  // width:85%;
+                  // padding-left: 0px;
+                  font-size: 15px;
+                  margin-top: auto;
+                  width: 78%;
+                }
+              }
+
+              img {
+                width: 80%;
+              }
+
+              .p1 {
+                width: 0%;
+              }
+            }
+
+            .under-truck {
+              width: 100%;
+              img {
+                margin-top: 2rem;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ftlservice-second-1 {
+    //margin-top: 400px;
+    .ftlservice-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .ftlservice-heading {
+      position: relative;
+      margin-top: 12rem;
+      margin-left: 0px;
+      .head {
+        width: 100%;
+        font-size: 30px;
+
+        span {
+          font-size: 30px;
+        }
+      }
+
+      .ftlservice-box {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

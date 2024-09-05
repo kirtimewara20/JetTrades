@@ -1,0 +1,355 @@
+.projectbased_main {
+  .projectbased-about {
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+    .project-about-back {
+      width: 100%;
+      margin-top: -3rem;
+    }
+
+    .project-about-content {
+      position: absolute;
+      top: -1%;
+      left: 4%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+
+      .project-about-heading {
+        font-size: 5rem;
+        font-weight: bold;
+        width: 100%;
+        color: white;
+      }
+
+      .project-load-white-container-01 {
+        border: 1px solid grey;
+        background-color: white;
+        font-size: 1.1rem;
+        color: black;
+        width: 38%;
+        border-radius: 12px;
+        ul {
+          margin-bottom: 0px;
+          li {
+          }
+        }
+      }
+    }
+  }
+
+  .pb-expertise {
+    //margin-top: 17rem;
+  }
+
+  .radius {
+    border-radius: 15px;
+  }
+
+  .custom-border-end {
+    border-right: 1px solid rgb(227, 222, 222) ;
+  }
+
+  .responsive-container {
+    // margin: 0 auto;
+
+    // max-width: 72rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    .responsive-item {
+      display: flex;
+      align-items: center;
+  
+      padding: 1rem 0;
+      flex-wrap: wrap; 
+
+      .responsive-img {
+        padding: 1rem;
+        max-width: 10rem; 
+        height: auto;
+        flex-shrink: 0;
+      }
+  
+      .responsive-text {
+        flex: 1;
+        padding: 0.5rem;
+        font-size: 1.3rem;
+
+        .highlight-text {
+          color: #d9534f; 
+          padding: 0rem;
+        }
+      }
+    }
+  }
+
+  .card-section {
+    .card-row {
+      .card-col {
+        .card-display {
+          display: flex;
+          flex-wrap: wrap;
+
+          .jet-main {
+            width: 100%;
+            cursor: pointer;
+            .jet-outer {
+              .jet-inner {
+                background-image: url("../../assets/Rectangle\ 169.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
+                .jet-sub-inner {
+                  padding: 1rem;
+                  .know-more-1 {
+                    p {
+                      font-size: 20px;
+                      font-weight: 600;
+                      margin: 0;
+                      text-align: end;
+                      color: red;
+                      padding-right: 10px;
+                    }
+                  }
+                  .bottom {
+                    .bottom-inner {
+                      .part-1 {
+                        .head {
+                          p {
+                            margin: 0px;
+                            font-size: 15px;
+                          }
+                          ul {
+                            .p-1 {
+                              font-size: 15px;
+                            }
+                          }
+                        }
+                      }
+                      .part-2 {
+                        .img-outer-1 {
+                          img {
+                            width: 100%;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width:1080px) {
+  .projectbased_main{
+    .projectbased-about {
+  
+      .project-about-back {
+      }
+  
+      .project-about-content {
+  
+        .project-about-heading {
+          font-size: 4rem !important;
+        }
+  
+        .project-load-white-container-01 {
+          ul {
+            li {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 995px){
+    .projectbased_main{
+      .projectbased-about {
+    
+        .project-about-back {
+        }
+    
+        .project-about-content {
+    
+          .project-about-heading {
+            font-size: 3rem !important;
+          }
+    
+          .project-load-white-container-01 {
+            width: 48%;
+            font-size: 15px;
+            ul {
+              li {
+              }
+            }
+          }
+        }
+      }
+    
+    .custom-border-end{
+      border-right: none;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .projectbased_main{
+    .projectbased-about {
+  
+      .project-about-back {
+      }
+  
+      .project-about-content {
+        top: -12%;
+  
+        .project-about-heading {
+          font-size: 2rem !important;
+        }
+  
+        .project-load-white-container-01 {
+          width: 48%;
+          font-size: 12px;
+          ul {
+            li {
+            }
+          }
+        }
+      }
+    }
+  
+  .custom-border-end{
+    border-right: none;
+  }
+}
+}
+
+@media (max-width: 768px){
+  .projectbased_main{
+    .projectbased-about {
+  
+      .project-about-back {
+      }
+  
+      .project-about-content {
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        position: relative;
+  
+        .project-about-heading {
+          font-size: 2rem !important;
+          text-align: center;
+          width: 100%;
+          color: black;
+        }
+  
+        .project-load-white-container-01 {
+          width: 100%;
+          font-size: 18px;
+          margin-bottom: 2rem;
+          ul {
+            margin: 1rem;
+            li {
+            }
+          }
+        }
+      }
+    }
+  
+  .custom-border-end{
+    border-right: none;
+  }
+}
+}
+@media (max-width: 576px){
+  .projectbased_main{
+    .projectbased-about {
+  
+      .project-about-back {
+      }
+  
+      .project-about-content {
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        position: relative;
+  
+        .project-about-heading {
+          font-size: 2rem !important;
+          text-align: center;
+          width: 100%;
+          color: black;
+        }
+  
+        .project-load-white-container-01 {
+          width: 100%;
+          font-size: 18px;
+          margin-bottom: 2rem;
+          ul {
+            margin: 1rem;
+            li {
+            }
+          }
+        }
+      }
+    }
+  
+  .custom-border-end{
+    border-right: none;
+  }
+}
+}
+
+@media (max-width: 412px){
+  .projectbased_main{
+    .projectbased-about {
+  
+      .project-about-back {
+        margin-top:-2rem ;
+      }
+  
+      .project-about-content {
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        position: relative;
+  
+        .project-about-heading {
+          font-size: 2rem !important;
+          text-align: center;
+          width: 100%;
+          color: black;
+        }
+  
+        .project-load-white-container-01 {
+          width: 100%;
+          font-size: 18px;
+          margin-bottom: 2rem;
+          ul {
+            margin: 1rem;
+            li {
+            }
+          }
+        }
+      }
+    }
+  
+  .custom-border-end{
+    border-right: none;
+  }
+}
+}

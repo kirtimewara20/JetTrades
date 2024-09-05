@@ -1,0 +1,227 @@
+.expertise-section-demo {
+  //margin-bottom: 0rem;
+  width: 100%;
+
+  .expertise-row-demo {
+    .expertise-col-demo {
+       //margin-top: 22rem;
+       //padding: 1rem;
+       width: 100%;
+
+      .expertise-demo {
+        text-align: center;
+        font-size: 3rem;
+      }
+
+      .new-para-1 {
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+      }
+
+      .new-para-2 {
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+      }
+
+
+      .expertise-containers1{
+        display: flex;
+        justify-content: space-evenly;
+ 
+         .expertise-col1 {
+           display: flex;
+           flex-direction: column;
+           height: auto;
+           width: 31%;
+           border: 1px solid gray;
+           border-radius: 20px;
+ 
+           .paragraph {
+             margin-top: 30px;
+             font-size: 25px;
+             color: red;
+             text-align: center;
+           }
+ 
+           .para-div{
+             text-align: center;
+             margin: 1rem;
+             flex-grow: 1; //makes the para-div take up available space
+             .paras {
+               //padding: 0;
+               margin: 30px 10px;
+               //text-align: justify;
+               font-size: 1.2rem;
+             }
+           }
+ 
+           .image-3 {
+               width: 45%;
+               margin: auto;
+           }
+         }
+       }
+      // .expertise-col1-demo {
+      //   width: 31%;
+      //   border: 1px solid gray;
+      //   border-radius: 1rem;
+      //   .paragraph-demo {
+      //     margin-top: 1rem;
+      //     font-size: 1.3rem;
+      //     color: red;
+      //     text-align: center;
+      //     margin-left: 1rem;
+      //   }
+      //   .paras-demo {
+      //     margin-top: 1rem;
+      //     text-align: center;
+      //     flex-grow: 1;
+      //   }
+      //   img {
+      //     //margin: 20px 75px auto;
+      //   }
+      //   .image-demo {
+      //     width: 9rem;
+      //   }
+      // }
+      // .colda{
+      //   .expertise-containers{
+      //     display: flex;
+      //     justify-content: space-evenly;
+      //   }
+      // }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .expertise-section-demo {
+    width: 90%;
+    .expertise-row-demo {
+      .expertise-col-demo {
+        //margin-top: 25rem;
+        padding: 1rem;
+        width: 50rem;
+        .expertise-demo {
+          text-align: center;
+          font-size: 3rem;
+          // margin-left: 13rem;
+        }
+        .new-para-1 {
+          font-size: 1.3rem;
+        }
+
+        .new-para-2 {
+          font-size: 1.3rem;
+        }
+
+        .expertise-containers1 {
+          display: flex;
+          flex-direction: column;
+          gap: 36px;
+          .expertise-col1 {
+            width: 100%;
+            margin: 15px;
+            border: 1px solid gray;
+            border-radius: 20px;
+
+            .paragraph {
+              // margin-top: 30px;
+              // font-size: 50px;
+              // color: red;
+              // text-align: center;
+              //margin-left: 20px;
+            }
+            .para-div {
+              display: flex;
+
+              .paras {
+                // margin: 0px 30px auto;
+                // padding: 0;
+                // margin: 30px 10px;
+                // text-align: justify;
+                // font-size: 1.2rem;
+              }
+            }
+            .image-3 {
+              // margin: 20px 100px 22px;
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+      max-width: 90%;
+  }
+}
+
+@media (max-width: 412px) {
+  .expertise-section-demo {
+    width: 100%;
+    margin-left: 0px;
+    //margin-top: 41rem;
+    .expertise-row-demo {
+      .expertise-col-demo {
+        .expertise {
+         //margin-top: -11rem;
+          font-size: 2rem;
+        }
+        .new-para-1 {
+          font-size: 1.3rem;
+        }
+
+        .new-para-2 {
+          font-size: 1.3rem;
+        }
+
+        .expertise-containers1 {
+          display: flex;
+          flex-direction: column;
+          gap: 36px;
+          .expertise-col1 {
+            width: 100%;
+            margin: 0px;
+            border: 1px solid gray;
+            border-radius: 20px;
+
+            .paragraph {
+              // margin-top: 30px;
+              // font-size: 50px;
+              // color: red;
+              // text-align: center;
+              //margin-left: 20px;
+            }
+            .para-div {
+              display: flex;
+
+              .paras {
+                // margin: 0px 30px auto;
+                // padding: 0;
+                // margin: 30px 10px;
+                // text-align: justify;
+                // font-size: 1.2rem;
+              }
+            }
+            .image-3 {
+              // margin: 20px 100px 22px;
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

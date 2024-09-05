@@ -1,0 +1,423 @@
+.service_main {
+  .service_about {
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+    .service-back {
+      width: 100%;
+      height: auto;
+      // display: block;
+      // margin-left: 2rem;
+      margin-top: -4.2rem;
+    }
+
+    .service-content {
+      position: absolute;
+      top: 0%;
+      left: 4%;
+      // transform: translateX(-50%);
+      // width: 78%;
+      text-align: left;
+      gap: 1rem;
+
+      .service-heading {
+        font-size: 6rem;
+        font-weight: bold;
+      }
+
+      .service-paragraph {
+        font-size: 1.4rem;
+        width: 43%;
+      }
+    }
+  }
+  .service-complete {
+    .complete-row {
+      .complete-section {
+        .complete-para {
+        }
+      }
+    }
+  }
+  .card-container {
+    width: 38%;
+    border-radius: 18px;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card-1 {
+      .truck-img {
+        padding-left: 10px;
+        padding-top: 10px;
+      }
+      .card-name {
+        color: red;
+        margin-top: 20px;
+        padding-left: 15px;
+      }
+    }
+    .card-para {
+      padding-left: 30px;
+      padding-top: 20px;
+      flex-grow: 1;
+    }
+    .card-button {
+      background-color: red;
+      border-radius: 10px;
+      margin: 0 50px auto;
+      position: relative;
+      top: 40px;
+      left: 152px;
+      padding: 10px;
+      color: white;
+      border: none;
+      align-self: center;
+      margin-top: 10px;
+    }
+  }
+
+  .video {
+    .video-1 {
+      .video-heading {
+        margin: 0px 0px;
+        position: relative;
+        top: 45px;
+        left: 40px;
+      }
+    }
+  }
+  .video-2 {
+    .video-heading-2 {
+      margin: 0px 0px;
+      position: relative;
+      top: 45px;
+      left: 40px;
+    }
+  }
+  .choose-class {
+    .choose {
+      color: red;
+    }
+  }
+  .choose-para {
+    padding-top: 45px;
+    padding-left: 80px;
+    .choose-para-1 {
+      .choose-para-1 {
+        .paragraph {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .choose-2 {
+    padding-left: 80px;
+    .choose-row-2 {
+      .choose-row-3 {
+        .paragraph-1 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .touch {
+    margin: 0px 60px auto;
+    padding: 30px;
+    border: 1px solid gray;
+    width: 90%;
+    border-radius: 12px;
+    padding-bottom: 30px;
+    .get-touch {
+      .touch-1 {
+        font-size: 64px;
+      }
+      .touch-2 {
+        font-size: 100px;
+        color: red;
+      }
+    }
+  }
+  .touch-left {
+    width: 50%;
+    padding: 10px;
+    .left-para {
+      font-size: 20px;
+      text-align: center;
+    }
+    .center {
+      margin-left: 100px;
+    }
+    .left-button {
+      background-color: red;
+      padding: 10px 20px;
+      border-radius: 10px;
+      position: relative;
+      left: 120px;
+      color: white;
+      border: none;
+      width: 40%;
+    }
+  }
+
+  .red-line {
+    border: none;
+    height: 10px !important;
+    background-color: red;
+    margin-top: 150px;
+  }
+  .multi-truck {
+    .truck-image {
+      position: relative;
+      left: 300px;
+      bottom: 200px;
+    }
+  }
+  .jet-container {
+    .jet-container-1 {
+      .jet-logo {
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px){
+  .service_main{
+    .service_about{
+      .service-content{
+        .service-heading{
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px){
+  .service_main{
+    .service_about{
+      .service-back{
+        margin-top: -3rem;
+      }
+      .service-content{
+        .service-heading{
+          font-size: 4rem;
+        }
+        .service-paragraph{
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px){
+  .service_main{
+    // .service_about{
+    //   .service-content{
+    //     top: 16%;
+    //     width: 107%;
+    //     .service-heading{
+    //       font-size: 5rem;
+    //     }
+    //     .service-paragraph{
+    //       font-size: 1rem;
+    //       width: 36%;
+    //     }
+    //   }
+    // }
+
+    .four-card{
+      .card-container{
+        .card-button {
+          margin: 0px;
+         }
+      }
+    }
+
+    .four-card1{
+      .card-container{
+        .card-button {
+          margin: 0px;
+         }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px){
+  .service_main{
+    position: relative;
+    .service_about{
+      .service-content{
+        //left: 1%;
+        position: relative;
+        color: black;
+        .service-heading{
+          //font-size: 4rem;
+        }
+        .service-paragraph{
+          font-size: 1.3rem;
+          width: 97%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .service_main {
+    .service_about {
+      .service-back {
+        margin-top: -2rem;
+      }
+      .service-content {
+        //top: 12%;
+        .service-heading {
+          //font-size: 3rem;
+        }
+
+        .service-paragraph {
+          //font-size: 1rem;
+          //width: 54%;
+        }
+      }
+    }
+
+    .service-complete {
+      .complete-row {
+        .complete-section {
+          .complete-para {
+            font-size: 1.3rem !important;
+          }
+        }
+      }
+    }
+
+    .four-card{
+      flex-direction: column;
+      align-items: center;
+      .card-container {
+        width: 80%;
+        .card-para {
+          font-size: 1rem !important;
+        }
+        .card-button {
+          left: 40%;
+        }
+      }
+    }
+
+    .four-card1{
+      flex-direction: column;
+      align-items: center;
+      .card-container {
+        width: 80%;
+        .card-para {
+          font-size: 1rem !important;
+        }
+        .card-button {
+          left: 40%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 412px) {
+  .service_main {
+    // .service_about {
+    //   .service-back {
+    //     margin-top: -2rem;
+    //   }
+    //   .service-content {
+    //     color: black;
+    //     position: relative;
+    //     .service-heading {
+    //       font-size: 2rem;
+    //     }
+
+    //     .service-paragraph {
+    //       font-size: 1rem;
+    //       width: 111%;
+    //     }
+    //   }
+    // }
+
+    .card-container {
+      .card-button {
+        left: 73px;
+      }
+    }
+
+    .new {
+      .new-1 {
+        .left-content-2 {
+          margin-top: 1rem;
+        }
+      }
+    }
+
+    .touch {
+      margin: 15px;
+    }
+  }
+}
+
+// @media (max-width: 412px) {
+//   .service-all {
+//     .main {
+//       .about-service {
+//         .about-back {
+//           margin-left: 5.5rem;
+//           margin-top: 20px;
+//           width: 85%;
+//         }
+//         .about-content {
+//           margin-top: -100px;
+//           .heading {
+//             font-size: 40px !important;
+//             color: black;
+//             margin-bottom: 0.6rem;
+//           }
+//           .paragraph {
+//             color: black;
+//             width: 95%;
+//           }
+//         }
+//       }
+//     }
+//     .complete {
+//       .complete-row {
+//         .complete-row-2 {
+//           .complete-section {
+//             margin-top: 4px;
+//             margin-left: 10px;
+//             .heading {
+//               font-size: 30px;
+//             }
+//             .para {
+//               font-size: 20px;
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//   .four-card {
+//     flex-direction: column;
+//     .card-container {
+//       width: fit-content;
+//     }
+//   }
+//   .four-card1 {
+//     flex-direction: column;
+//     .card-container {
+//       width: fit-content;
+//     }
+//   }
+// }

@@ -1,0 +1,239 @@
+.fleetTrailer{
+    .fleetTrailer-row{
+        .fleetTrailer-col{
+            .fleetTrailer-heading{
+                text-align: center;
+                margin-top: 3rem;
+                h2{
+                    font-size: 40px;
+                }
+                h1{
+                    font-size: 50px;
+                    color: red;
+                }
+                p{
+                    font-size: 20px;
+                }
+
+            }
+            .fleetTrailer-flatbed{
+                margin-top: 30px;
+                .fleetTrailer-flatbed-subcol{
+                    border: 1px solid gray;
+                    border-radius: 10px;
+                    padding: 15px;
+                    margin: 10px;
+                    h1{
+                        font-size: 25px;
+                        color: red;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                .fleetTrailer-flatbed-image{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 100%;
+                        padding: 10px;
+                    }
+                }
+                .fleetTrailer-flatbed-subcol{
+                    border: 1px solid gray;
+                    border-radius: 10px;
+                    padding: 15px;
+                    margin: 10px;
+                    h1{
+                        font-size: 25px;
+                        color: red;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .fleetTrailer-excel{
+                .fleetTrailer-excel-image{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .fleetTrailer-excel-heading{
+                    border: 1px solid gray;
+                    border-radius: 15px;
+                    padding: 20px;
+                    margin-left: 10px;
+                    height: fit-content;
+                    display: flex;
+                    flex-direction: column;
+                    align-self: center;
+                    width: 52%;
+                    h1{
+                        font-size: 25px;
+                        color: red;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .fleetTrailer-lowbed{
+                margin-top: 30px;
+                margin-left: 0px;
+                .fleetTrailer-lowbed-subcol{
+                    border: 1px solid gray;
+                    border-radius: 10px;
+                    padding: 15px;
+                    margin: 10px;
+                    h1{
+                        font-size: 25px;
+                        color: red;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                .fleetTrailer-lowbed-image{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 100%;
+                        padding: 10px;
+                    }
+                }
+                .fleetTrailer-lowbed-subcol{
+                    border: 1px solid gray;
+                    border-radius: 10px;
+                    padding: 15px;
+                    margin: 10px;
+                    h1{
+                        font-size: 25px;
+                        color: red;
+                    }
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .fleetTrailer{
+        margin: auto;
+        .fleetTrailer-row{
+            .fleetTrailer-col{
+                // margin-left: -5rem;
+                .fleetTrailer-heading{
+                    margin-top: 3rem;
+                    p{
+                        width:100%;
+                        margin: auto;
+                    }
+                }
+                .fleetTrailer-flatbed{
+                    flex-direction: column;
+                    width: 100%;
+                    .fleetTrailer-flatbed-subcol{
+                        width: 100%;
+                        margin: auto;
+                        
+                    }
+                    .fleetTrailer-flatbed-image{
+                        width: 100%;
+                    }
+                }
+                .fleetTrailer-excel{
+                    flex-direction: column;
+                    width: 100%;
+                    .fleetTrailer-excel-image{
+                        width: 100%;
+                    }
+                    .fleetTrailer-excel-heading{
+                        width: 100%;
+                        margin: auto;
+                    }
+                }
+
+                .fleetTrailer-lowbed{
+                    flex-direction: column;
+                    .fleetTrailer-lowbed-subcol{
+                        width: 100%;
+                        margin: auto;
+                    }
+                    .fleetTrailer-lowbed-image{
+                        width: 100%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media (min-width: 768px) {
+//     .container, .container-md, .container-sm {
+//         max-width: 100%;
+//     }
+// }
+
+@media(max-width: 412px){
+    .fleetTrailer{
+        .fleetTrailer-row{
+            .fleetTrailer-col{
+                .fleetTrailer-heading{
+                    h2{
+                        font-size: 38px;
+                    }
+                    p{
+                        width:80%;
+                        margin-left: 2rem;
+                        text-align: center;
+                    }
+                }
+                .fleetTrailer-flatbed{
+                    flex-direction: column;
+                    width: 100%;
+                    .fleetTrailer-flatbed-subcol{
+                        width: 100%;
+                        h1{
+                            text-align: center;
+                        }
+                    }
+                    .fleetTrailer-flatbed-image{
+                        width: 100%;
+                    }
+                }
+                .fleetTrailer-excel{
+                    flex-direction: column;
+                    width: 100%;
+                    .fleetTrailer-excel-image{
+                        width: 100%;
+                    }
+                    .fleetTrailer-excel-heading{
+                        width: 100%;
+                        h1{
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .fleetTrailer-lowbed{
+                    flex-direction: column;
+                    margin-left: 0px;
+                    .fleetTrailer-lowbed-subcol{
+                        width: 100%;
+                        h1{
+                            text-align: center;
+                        }
+                    }
+                    .fleetTrailer-lowbed-image{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

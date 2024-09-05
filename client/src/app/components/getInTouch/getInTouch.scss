@@ -1,0 +1,103 @@
+.touch {
+  // margin: 0px 60px auto;
+  padding: 30px;
+  border: 1px solid gray;
+  width: 90%;
+  border-radius: 12px;
+  padding-bottom: 30px;
+  margin: auto;
+  .get-touch {
+    .touch-1 {
+      font-size: 64px;
+    }
+    .touch-2 {
+      font-size: 100px;
+      color: red;
+    }
+  }
+}
+.touch-left {
+  width: 50%;
+  padding: 10px;
+  .left-para {
+    font-size: 20px;
+    text-align: center;
+  }
+  .center {
+    margin-left: 100px;
+  }
+  .left-button {
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 120px;
+    color: white;
+    border: none;
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  
+    .touch {
+      display: flex;
+      flex-direction: column;
+      .get-touch {
+        text-align: center;
+
+        .touch-1 {
+          font-size: 50px;
+        }
+        .touch-2 {
+          font-size: 80px;
+        }
+      }
+      .touch-left {
+        width: 100%;
+        .left-button {
+          left:30%
+        }
+        .div-contact{
+          
+        }
+      }
+    }
+  
+}
+
+@media (max-width: 412px) {
+  .touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    .col-4 {
+      width: fit-content;
+    }
+    .get-touch {
+      .touch-1 {
+        width: max-content;
+        font-size: 40px !important;
+      }
+      .touch-2 {
+        font-size: 40px !important;
+      }
+    }
+
+    .touch-left {
+      width: fit-content;
+      .left-para {
+        font-size: 23px;
+      }
+
+      button {
+        width: fit-content;
+      }
+
+      .left-button {
+        padding: 10px;
+      }
+    }
+  }
+}
